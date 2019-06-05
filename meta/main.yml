@@ -1,0 +1,34 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: mosh
+  author: hwwilliams
+  description: Mosh installation for Debian/Ubuntu and CentOS/Fedora/Redhat based Linux systems
+  license: license (MIT)
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
+    - name: Fedora
+      versions:
+        - 27
+        - 28
+        - 29
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - mosh
+    - networking
+    - system
