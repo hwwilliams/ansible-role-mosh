@@ -1,0 +1,5 @@
+---
+- name: Ensure Mosh Is Present
+  package:
+    name: '{{ mosh_package }}'
+    state: present
