@@ -24,7 +24,6 @@ galaxy_info:
         - 29
     - name: Ubuntu
       versions:
-        - precise
         - trusty
         - xenial
         - bionic
