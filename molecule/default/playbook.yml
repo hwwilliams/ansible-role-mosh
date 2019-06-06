@@ -14,5 +14,6 @@
       apt:
         update_cache: true
         cache_valid_time: 360
+      when: ansible_os_family | lower == 'debian'
   roles:
     - role: hwwilliams.mosh
