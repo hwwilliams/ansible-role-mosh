@@ -10,5 +10,9 @@
           - '!all'
           - network
           - hardware
+    - name: Update Package Cache (Apt)
+      apt:
+        update_cache: true
+        cache_valid_time: 360
   roles:
     - role: hwwilliams.mosh
